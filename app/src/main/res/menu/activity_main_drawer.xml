@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_HomeID"
+            android:icon="@drawable/home"
+            android:title="Courses" />
+        <item
+            android:id="@+id/nav_service_listID"
+            android:icon="@drawable/all_user_informatin"
+            android:title="Services" />
+
+        <item
+            android:id="@+id/nav_productID"
+            android:icon="@drawable/product"
+            android:title="Product" />
+
+        <item
+            android:id="@+id/nav_contactID"
+            android:icon="@drawable/contacts"
+            android:title="Contact" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_aboutID"
+                android:icon="@drawable/about"
+                android:title="About" />
+
+        </menu>
+    </item>
+
+</menu>

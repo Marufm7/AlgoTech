@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">AlgoTech</string>
+
+    <string name="URL_string">http://192.168.0.8/Algotech_Api/</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="nav_header_title">Algotech</string>
+    <string name="nav_header_subtitle">useremail@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign In</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_all_user_information">AllUserInformation</string>
+    <string name="title_activity_forget_password">ForgetPassword</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="home_title">Courses for the best career conducted by specialist trainer.</string>
+    <string name="search_courses"> </string>
+    <string name="title_activity_about__us"></string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_contact_us">Contact us</string>
+    <string name="title_activity_courses_list">Courses</string>
+    <string name="title_activity_products__list">Products</string>
+    <string name="title_activity_service__list">Services</string>
+    <string name="about_us">Algotech Ltd. is a multi-layered Bangladesh based Software Company that focuses on highly qualita tive, timely delivered and cost-effective Software development and Training. Algotech Ltd. is register as private limited company assigned in Bangladesh with the express purpose of developing a skilled manpower in ICT sector of Bangladesh. We are providing high quality professional training through various IT courses.lt has Industrial level experience and competence in rendering training and allied services to numerous students over the years. By doing this, Algotech has succussed in carving a niche training where our prior commitment is to develop a sustainable relationship with the students all over bangladesh.Algotech has been providing industrial attachment of polytechnic students for a long time.</string>
+</resources>

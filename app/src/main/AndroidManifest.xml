@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.maruf.mb.algotech">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:name=".Commonly_used_class.Controller"
+        android:allowBackup="true"
+        android:icon="@drawable/a_algotech"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".About_Us"
+            android:label="@string/title_activity_about__us"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Test_Activity" />
+        <activity
+            android:name=".Service_List"
+            android:label="@string/title_activity_service__list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Products_List"
+            android:label="@string/title_activity_products__list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Courses_list"
+            android:label="@string/title_activity_courses_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Contact_us"
+            android:label="@string/title_activity_contact_us"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Commonly_used_class.Details_View" />
+        <activity
+
+            android:name=".Home_without_Login"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Register"
+            android:parentActivityName=".Home_without_Login"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:name=".Splash_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:parentActivityName=".Home_without_Login"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name=".Login" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
